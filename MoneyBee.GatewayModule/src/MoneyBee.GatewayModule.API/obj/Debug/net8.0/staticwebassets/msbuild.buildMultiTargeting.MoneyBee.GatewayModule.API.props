@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/MoneyBee.GatewayModule.API.props" />
+</Project>

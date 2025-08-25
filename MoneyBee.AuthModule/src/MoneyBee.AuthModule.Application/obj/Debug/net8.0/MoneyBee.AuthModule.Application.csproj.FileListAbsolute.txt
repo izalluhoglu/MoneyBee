@@ -1,0 +1,15 @@
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/bin/Debug/net8.0/MoneyBee.AuthModule.Application.deps.json
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/bin/Debug/net8.0/MoneyBee.AuthModule.Application.dll
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/bin/Debug/net8.0/MoneyBee.AuthModule.Application.pdb
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/bin/Debug/net8.0/MoneyBee.AuthModule.Domain.dll
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/bin/Debug/net8.0/MoneyBee.AuthModule.Domain.pdb
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/obj/Debug/net8.0/MoneyBee.AuthModule.Application.csproj.AssemblyReference.cache
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/obj/Debug/net8.0/MoneyBee.AuthModule.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/obj/Debug/net8.0/MoneyBee.AuthModule.Application.AssemblyInfoInputs.cache
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/obj/Debug/net8.0/MoneyBee.AuthModule.Application.AssemblyInfo.cs
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/obj/Debug/net8.0/MoneyBee.AuthModule.Application.csproj.CoreCompileInputs.cache
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/obj/Debug/net8.0/MoneyBee.8A65C5EF.Up2Date
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/obj/Debug/net8.0/MoneyBee.AuthModule.Application.dll
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/obj/Debug/net8.0/refint/MoneyBee.AuthModule.Application.dll
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/obj/Debug/net8.0/MoneyBee.AuthModule.Application.pdb
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Application/obj/Debug/net8.0/ref/MoneyBee.AuthModule.Application.dll

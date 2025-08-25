@@ -1,0 +1,306 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.API/MoneyBee.TransferModule.API.csproj": {}
+  },
+  "projects": {
+    "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.API/MoneyBee.TransferModule.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.API/MoneyBee.TransferModule.API.csproj",
+        "projectName": "MoneyBee.TransferModule.API",
+        "projectPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.API/MoneyBee.TransferModule.API.csproj",
+        "packagesPath": "/Users/ismailzalluhoglu/.nuget/packages/",
+        "outputPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ismailzalluhoglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Application/MoneyBee.TransferModule.Application.csproj": {
+                "projectPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Application/MoneyBee.TransferModule.Application.csproj"
+              },
+              "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Infrastructure/MoneyBee.TransferModule.Infrastructure.csproj": {
+                "projectPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Infrastructure/MoneyBee.TransferModule.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Application/MoneyBee.TransferModule.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Application/MoneyBee.TransferModule.Application.csproj",
+        "projectName": "MoneyBee.TransferModule.Application",
+        "projectPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Application/MoneyBee.TransferModule.Application.csproj",
+        "packagesPath": "/Users/ismailzalluhoglu/.nuget/packages/",
+        "outputPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ismailzalluhoglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Domain/MoneyBee.TransferModule.Domain.csproj": {
+                "projectPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Domain/MoneyBee.TransferModule.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Domain/MoneyBee.TransferModule.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Domain/MoneyBee.TransferModule.Domain.csproj",
+        "projectName": "MoneyBee.TransferModule.Domain",
+        "projectPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Domain/MoneyBee.TransferModule.Domain.csproj",
+        "packagesPath": "/Users/ismailzalluhoglu/.nuget/packages/",
+        "outputPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ismailzalluhoglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Infrastructure/MoneyBee.TransferModule.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Infrastructure/MoneyBee.TransferModule.Infrastructure.csproj",
+        "projectName": "MoneyBee.TransferModule.Infrastructure",
+        "projectPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Infrastructure/MoneyBee.TransferModule.Infrastructure.csproj",
+        "packagesPath": "/Users/ismailzalluhoglu/.nuget/packages/",
+        "outputPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ismailzalluhoglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Application/MoneyBee.TransferModule.Application.csproj": {
+                "projectPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Application/MoneyBee.TransferModule.Application.csproj"
+              },
+              "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Domain/MoneyBee.TransferModule.Domain.csproj": {
+                "projectPath": "/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.TransferModule/src/MoneyBee.TransferModule.Domain/MoneyBee.TransferModule.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

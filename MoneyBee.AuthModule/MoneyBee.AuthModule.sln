@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9BBE832-CFE8-415C-8E89-2ADE98F6F895}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9ACE392F-DEC7-4B95-8404-108ABAC81694}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyBee.AuthModule.API", "src\MoneyBee.AuthModule.API\MoneyBee.AuthModule.API.csproj", "{CEA5057A-4721-4057-868F-356D77AC9B9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyBee.AuthModule.Application", "src\MoneyBee.AuthModule.Application\MoneyBee.AuthModule.Application.csproj", "{4E3F7B6A-E571-4110-9AFF-B68D1CFC871F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyBee.AuthModule.Domain", "src\MoneyBee.AuthModule.Domain\MoneyBee.AuthModule.Domain.csproj", "{8CAD1B62-A36D-46E9-A390-6C31A35F82EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyBee.AuthModule.Infrastructure", "src\MoneyBee.AuthModule.Infrastructure\MoneyBee.AuthModule.Infrastructure.csproj", "{9304C2CC-42BA-496B-A6DD-02AD5D8E3E23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyBee.AuthModule.Tests", "tests\MoneyBee.AuthModule.Tests\MoneyBee.AuthModule.Tests.csproj", "{6EC20307-099A-4AD1-9B1B-BF860A6E9726}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEA5057A-4721-4057-868F-356D77AC9B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA5057A-4721-4057-868F-356D77AC9B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA5057A-4721-4057-868F-356D77AC9B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA5057A-4721-4057-868F-356D77AC9B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3F7B6A-E571-4110-9AFF-B68D1CFC871F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3F7B6A-E571-4110-9AFF-B68D1CFC871F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3F7B6A-E571-4110-9AFF-B68D1CFC871F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3F7B6A-E571-4110-9AFF-B68D1CFC871F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAD1B62-A36D-46E9-A390-6C31A35F82EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAD1B62-A36D-46E9-A390-6C31A35F82EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAD1B62-A36D-46E9-A390-6C31A35F82EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAD1B62-A36D-46E9-A390-6C31A35F82EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9304C2CC-42BA-496B-A6DD-02AD5D8E3E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9304C2CC-42BA-496B-A6DD-02AD5D8E3E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9304C2CC-42BA-496B-A6DD-02AD5D8E3E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9304C2CC-42BA-496B-A6DD-02AD5D8E3E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC20307-099A-4AD1-9B1B-BF860A6E9726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC20307-099A-4AD1-9B1B-BF860A6E9726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC20307-099A-4AD1-9B1B-BF860A6E9726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC20307-099A-4AD1-9B1B-BF860A6E9726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEA5057A-4721-4057-868F-356D77AC9B9A} = {D9BBE832-CFE8-415C-8E89-2ADE98F6F895}
+		{4E3F7B6A-E571-4110-9AFF-B68D1CFC871F} = {D9BBE832-CFE8-415C-8E89-2ADE98F6F895}
+		{8CAD1B62-A36D-46E9-A390-6C31A35F82EF} = {D9BBE832-CFE8-415C-8E89-2ADE98F6F895}
+		{9304C2CC-42BA-496B-A6DD-02AD5D8E3E23} = {D9BBE832-CFE8-415C-8E89-2ADE98F6F895}
+		{6EC20307-099A-4AD1-9B1B-BF860A6E9726} = {9ACE392F-DEC7-4B95-8404-108ABAC81694}
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

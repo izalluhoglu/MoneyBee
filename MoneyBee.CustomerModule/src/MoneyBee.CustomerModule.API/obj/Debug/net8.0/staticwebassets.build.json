@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tX8DRil7TxCeO9/0qqUygZEQuGo9m5YyRatr7iGhoSI=",
+  "Source": "MoneyBee.CustomerModule.API",
+  "BasePath": "_content/MoneyBee.CustomerModule.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

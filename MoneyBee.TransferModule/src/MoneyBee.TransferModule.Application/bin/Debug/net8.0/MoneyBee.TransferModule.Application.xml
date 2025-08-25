@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MoneyBee.TransferModule.Application</name>
+    </assembly>
+    <members>
+        <member name="T:MoneyBee.TransferModule.Application.Abstractions.ITransferReadRepository">
+            <summary>Read-side repository for transfers.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Abstractions.ITransferReadRepository.GetByIdAsync(System.Guid)">
+            <summary>Gets a transfer by Id.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Abstractions.ITransferReadRepository.GetAllAsync(System.Int32,System.Int32)">
+            <summary>Gets a page of transfers (1-based page index).</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Abstractions.ITransferReadRepository.GetTotalSentTodayAsync(System.Guid)">
+            <summary>Gets total sent amount of the sender in UTC day.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Abstractions.ITransferReadRepository.GetDailyStatsBySenderAsync(System.Guid)">
+            <summary>Gets daily stats for the sender (count, total amount, total fee).</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Abstractions.ITransferWriteRepository">
+            <summary>Write-side repository for transfers.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Abstractions.ITransferWriteRepository.AddAsync(MoneyBee.TransferModule.Domain.Entities.Transfer)">
+            <summary>Adds a new transfer entity.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Abstractions.ITransferWriteRepository.UpdateAsync(MoneyBee.TransferModule.Domain.Entities.Transfer)">
+            <summary>Updates an existing transfer entity.</summary>
+        </member>
+        <member name="P:MoneyBee.TransferModule.Application.Abstractions.ITransferWriteRepository.UnitOfWork">
+            <summary>Unit-of-work accessor.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Abstractions.IUnitOfWork">
+            <summary>Unit of Work abstraction.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Abstractions.IUnitOfWork.SaveChangesAsync">
+            <summary>Persists all changes as a single transaction.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.DTOs.TransferDailyStatsDto">
+            <summary>Daily totals for a sender.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.DTOs.TransferDto">
+            <summary>Lightweight transfer data transfer object.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Mappings.TransferMappings">
+            <summary>Basic mapper for Transfer &lt;-&gt; DTO.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Mappings.TransferMappings.ToDto(MoneyBee.TransferModule.Domain.Entities.Transfer)">
+            <summary>Maps entity to DTO.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.ServiceExtensions">
+            <summary>Registers application services.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.ServiceExtensions.AddApplication(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>Adds MediatR and application handlers.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Transfers.Commands.CancelTransfer.CancelTransferCommand">
+            <summary>Cancels an existing transfer.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Transfers.Commands.CancelTransfer.CancelTransferCommand.#ctor(System.Guid)">
+            <summary>Cancels an existing transfer.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Transfers.Commands.CancelTransfer.CancelTransferCommandHandler">
+            <summary>Handles transfer cancellation.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Transfers.Commands.CreateTransfer.CreateTransferCommand">
+            <summary>Creates a new transfer.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Transfers.Commands.CreateTransfer.CreateTransferCommand.#ctor(System.Guid,System.Guid,System.Decimal,System.Decimal,System.String)">
+            <summary>Creates a new transfer.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Transfers.Commands.CreateTransfer.CreateTransferCommandHandler">
+            <summary>Handles transfer creation.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Transfers.Queries.GetDailyStatsBySender.GetDailyStatsBySenderQuery">
+            <summary>Gets today's totals for a sender.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Transfers.Queries.GetDailyStatsBySender.GetDailyStatsBySenderQuery.#ctor(System.Guid)">
+            <summary>Gets today's totals for a sender.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Transfers.Queries.GetDailyStatsBySender.GetDailyStatsBySenderQueryHandler">
+            <summary>Handles daily stats retrieval for a sender.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Transfers.Queries.GetTransferById.GetTransferByIdQuery">
+            <summary>Gets a transfer by Id.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Transfers.Queries.GetTransferById.GetTransferByIdQuery.#ctor(System.Guid)">
+            <summary>Gets a transfer by Id.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Transfers.Queries.GetTransferById.GetTransferByIdQueryHandler">
+            <summary>Handles retrieval of a transfer by Id.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Transfers.Queries.GetTransfers.GetTransfersQuery">
+            <summary>Gets a page of transfers.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.Application.Transfers.Queries.GetTransfers.GetTransfersQuery.#ctor(System.Int32,System.Int32)">
+            <summary>Gets a page of transfers.</summary>
+        </member>
+        <member name="T:MoneyBee.TransferModule.Application.Transfers.Queries.GetTransfers.GetTransfersQueryHandler">
+            <summary>Handles page retrieval of transfers.</summary>
+        </member>
+    </members>
+</doc>

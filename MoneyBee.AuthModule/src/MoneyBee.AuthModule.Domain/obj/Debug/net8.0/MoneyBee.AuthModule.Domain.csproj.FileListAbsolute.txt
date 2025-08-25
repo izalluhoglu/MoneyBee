@@ -1,0 +1,11 @@
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/bin/Debug/net8.0/MoneyBee.AuthModule.Domain.deps.json
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/bin/Debug/net8.0/MoneyBee.AuthModule.Domain.dll
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/bin/Debug/net8.0/MoneyBee.AuthModule.Domain.pdb
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/obj/Debug/net8.0/MoneyBee.AuthModule.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/obj/Debug/net8.0/MoneyBee.AuthModule.Domain.AssemblyInfoInputs.cache
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/obj/Debug/net8.0/MoneyBee.AuthModule.Domain.AssemblyInfo.cs
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/obj/Debug/net8.0/MoneyBee.AuthModule.Domain.csproj.CoreCompileInputs.cache
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/obj/Debug/net8.0/MoneyBee.AuthModule.Domain.dll
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/obj/Debug/net8.0/refint/MoneyBee.AuthModule.Domain.dll
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/obj/Debug/net8.0/MoneyBee.AuthModule.Domain.pdb
+/Users/ismailzalluhoglu/Desktop/MoneyBee/MoneyBee.AuthModule/src/MoneyBee.AuthModule.Domain/obj/Debug/net8.0/ref/MoneyBee.AuthModule.Domain.dll

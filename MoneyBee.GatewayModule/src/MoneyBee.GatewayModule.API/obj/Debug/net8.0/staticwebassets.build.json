@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+PhvQAJvAsYOLceAJIZf5EKhr323LGVyBxxSYEiGYIs=",
+  "Source": "MoneyBee.GatewayModule.API",
+  "BasePath": "_content/MoneyBee.GatewayModule.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

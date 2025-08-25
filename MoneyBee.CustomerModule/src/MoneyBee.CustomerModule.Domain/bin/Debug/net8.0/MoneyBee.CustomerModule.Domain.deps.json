@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MoneyBee.CustomerModule.Domain/1.0.0": {
+        "runtime": {
+          "MoneyBee.CustomerModule.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MoneyBee.CustomerModule.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

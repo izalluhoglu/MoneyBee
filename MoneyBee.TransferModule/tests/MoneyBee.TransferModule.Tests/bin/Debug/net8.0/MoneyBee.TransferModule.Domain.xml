@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MoneyBee.TransferModule.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:MoneyBee.TransferModule.Domain.Entities.Transfer">
+            <summary>Represents a money transfer transaction.</summary>
+        </member>
+        <member name="P:MoneyBee.TransferModule.Domain.Entities.Transfer.Id">
+            <summary>Primary key.</summary>
+        </member>
+        <member name="P:MoneyBee.TransferModule.Domain.Entities.Transfer.SenderCustomerId">
+            <summary>Sender customer unique Id.</summary>
+        </member>
+        <member name="P:MoneyBee.TransferModule.Domain.Entities.Transfer.ReceiverCustomerId">
+            <summary>Receiver customer unique Id.</summary>
+        </member>
+        <member name="P:MoneyBee.TransferModule.Domain.Entities.Transfer.Amount">
+            <summary>Amount being sent.</summary>
+        </member>
+        <member name="P:MoneyBee.TransferModule.Domain.Entities.Transfer.Fee">
+            <summary>Transaction fee amount.</summary>
+        </member>
+        <member name="P:MoneyBee.TransferModule.Domain.Entities.Transfer.Code">
+            <summary>Code the receiver will use to withdraw money.</summary>
+        </member>
+        <member name="P:MoneyBee.TransferModule.Domain.Entities.Transfer.Status">
+            <summary>Transaction status.</summary>
+        </member>
+        <member name="P:MoneyBee.TransferModule.Domain.Entities.Transfer.CreatedAtUtc">
+            <summary>UTC creation time.</summary>
+        </member>
+        <member name="P:MoneyBee.TransferModule.Domain.Entities.Transfer.CancelledAtUtc">
+            <summary>UTC cancellation time.</summary>
+        </member>
+    </members>
+</doc>

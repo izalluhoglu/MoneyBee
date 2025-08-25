@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4MHrRiswCUS6gsofXMGDTgtxhusle8lvF/2dcz+6Eyk=",
+  "Source": "MoneyBee.TransferModule.API",
+  "BasePath": "_content/MoneyBee.TransferModule.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

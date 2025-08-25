@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MoneyBee.TransferModule.API</name>
+    </assembly>
+    <members>
+        <member name="T:MoneyBee.TransferModule.API.Controllers.TransfersController">
+            <summary>Transfer endpoints (secured).</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.API.Controllers.TransfersController.GetById(System.Guid)">
+            <summary>Gets a transfer by Id.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.API.Controllers.TransfersController.Get(System.Int32,System.Int32)">
+            <summary>Gets a page of transfers.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.API.Controllers.TransfersController.Create(MoneyBee.TransferModule.Application.Transfers.Commands.CreateTransfer.CreateTransferCommand)">
+            <summary>Creates a new transfer.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.API.Controllers.TransfersController.Cancel(System.Guid)">
+            <summary>Cancels a transfer.</summary>
+        </member>
+        <member name="M:MoneyBee.TransferModule.API.Controllers.TransfersController.GetDailyStats(System.Guid)">
+            <summary>Gets today's totals for a sender.</summary>
+        </member>
+    </members>
+</doc>
